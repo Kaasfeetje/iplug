@@ -1,0 +1,24 @@
+.pros {
+    display: flex;
+    justify-content: space-between;
+    width: calc(100% - 4rem);
+    margin: 4rem auto;
+    margin-bottom: 8rem;
+}
+
+.pros > div {
+    display: flex;
+    align-items: center;
+}
+
+.pros > div > svg {
+    margin-right: 1rem;
+}
+
+.pros h5 {
+    font-size: 1em;
+}
+
+.pros p {
+    color: #989797;
+}
