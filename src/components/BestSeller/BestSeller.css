@@ -1,0 +1,80 @@
+.bestseller {
+    padding: 2rem;
+}
+
+.bestseller .head {
+    text-align: center;
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+}
+
+.bestseller .head h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.bestseller .head h5 {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #989797;
+}
+
+.bestseller-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    column-gap: 1rem;
+    row-gap: 2rem;
+}
+
+.bestseller-card {
+    height: 400px;
+}
+
+.bestseller-card .image {
+    height: 250px;
+    background-color: #f7ecfb;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 1rem;
+    position: relative;
+}
+
+.bestseller-card .image .sale {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    background-color: #ff2222e5;
+    color: #fff;
+    top: 1rem;
+    left: 1rem;
+}
+
+.bestseller-card .info {
+    margin-top: 1rem;
+}
+
+.bestseller-card .info .name {
+    font-weight: 400;
+    font-size: 1em;
+}
+
+.bestseller-card .info > div {
+    display: flex;
+}
+
+.bestseller-card .info .price,
+.bestseller-card .info .oldPrice {
+    font-size: 1em;
+    font-weight: 700;
+}
+
+.bestseller-card .info .oldPrice {
+    text-decoration: line-through;
+    color: #989797;
+    margin-right: 0.5rem;
+}

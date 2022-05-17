@@ -1,4 +1,5 @@
 import React from "react";
+import BestSeller from "./components/BestSeller/BestSeller";
 import Discount from "./components/Discount/Discount";
 import Header from "./components/Header/Header";
 import Hero from "./components/Hero/Hero";
@@ -20,6 +21,7 @@ const App = () => {
                 image={discount1}
                 color="#FF2222E5"
             />
+            <BestSeller />
         </div>
     );
 };
