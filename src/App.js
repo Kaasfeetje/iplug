@@ -1,8 +1,10 @@
 import React from "react";
 import BestSeller from "./components/BestSeller/BestSeller";
 import Discount from "./components/Discount/Discount";
+import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
 import Hero from "./components/Hero/Hero";
+import Logos from "./components/Logos/Logos";
 import Pros from "./components/Pros/Pros";
 import RecentNews from "./components/RecentNews/RecentNews";
 import Trend from "./components/Trend/Trend";
@@ -32,6 +34,8 @@ const App = () => {
                 color="#3FB13DE5"
             />
             <RecentNews />
+            <Logos />
+            <Footer />
         </div>
     );
 };

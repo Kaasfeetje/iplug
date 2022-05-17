@@ -1,0 +1,14 @@
+.logos {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow-x: hidden;
+    max-width: calc(100% - 2rem);
+    padding: 2rem;
+    margin: 4rem 0;
+    background-color: #f7ecfb40;
+}
+
+.logos img {
+    transform: scale(0.75);
+}

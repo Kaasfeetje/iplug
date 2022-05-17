@@ -74,6 +74,7 @@ header .search {
     font-size: 14px;
     font-weight: 400;
     color: #fff;
+    padding-right: 5em;
     flex: 1;
 }
 

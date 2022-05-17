@@ -1,0 +1,119 @@
+footer {
+    background-color: #000;
+    color: #989797;
+    border-radius: 4rem 4rem 0 0;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+    width: calc(100% - 4rem);
+    padding: 4rem 2rem;
+}
+
+.footer .description {
+    max-width: 25%;
+}
+
+.footer .description .logo {
+    font-weight: 700;
+    font-size: 1rem;
+    color: var(--neonBlue);
+    border: 2px solid var(--neonBlue);
+    padding: 0.5em 0.75em;
+    border-radius: 2rem;
+    margin-right: 1rem;
+    display: inline-block;
+    margin-bottom: 2rem;
+}
+
+.footer .links {
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    margin: 0 3rem;
+}
+
+.footer .links ul {
+    list-style: none;
+}
+
+.footer .links .head {
+    margin-bottom: 2rem;
+    margin-top: 0;
+    color: #fff;
+}
+
+.footer .links li {
+    margin: 0.5rem 0;
+}
+
+.footer .subscribe {
+    max-width: 25%;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer .subscribe .follow {
+    display: flex;
+    align-items: top;
+    padding-bottom: 2rem;
+    border-bottom: 2px solid #989797;
+}
+
+.footer .subscribe h5 {
+    color: #fff;
+    font-size: 1em;
+    font-weight: 500;
+    margin-right: 2rem;
+}
+
+.footer .subscribe > h5 {
+    margin-top: 1rem;
+}
+
+.subscribe .follow svg {
+    margin: 0 0.5rem;
+}
+
+.footer .subscribe form {
+    background-color: #fff;
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-top: auto;
+}
+
+.footer .subscribe form input {
+    border: none;
+    background: none;
+    outline: none;
+    font-size: 1rem;
+}
+
+.footer .subscribe form input::placeholder {
+    color: #000;
+}
+
+.footer .subscribe form button {
+    position: absolute;
+    border: none;
+    outline: none;
+    background: var(--neonBlue);
+    color: #fff;
+    padding: 0.75em;
+    right: 0.75em;
+    border-radius: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+footer .tos {
+    border-top: 1px solid #989797;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
