@@ -1,0 +1,64 @@
+.discount {
+    margin-top: 8rem;
+    padding: 4rem 8rem;
+    border-radius: 1rem;
+    color: #fff;
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.discount-info {
+    width: 25%;
+    margin-right: 6rem;
+}
+
+.discount-info img {
+    position: absolute;
+    top: -61%;
+    left: 9%;
+    transform: scale(0.8);
+}
+
+.discount-info h3,
+.discount-sale h3 {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.discount-info h2.catchphrase {
+    font-size: 5rem;
+    text-transform: uppercase;
+}
+
+.discount-sale {
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+}
+
+.discount-sale h2 {
+    font-size: 3rem;
+    margin: 1rem 0;
+}
+
+.discount-sale .buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: auto;
+}
+
+.buttons button {
+    width: 50px;
+    height: 50px;
+    border-radius: 2rem;
+    border: none;
+    background: #fff;
+}
+
+.buttons .shop-btn {
+    width: auto;
+    height: auto;
+    padding: 1rem 3rem;
+    font-weight: 600;
+}
