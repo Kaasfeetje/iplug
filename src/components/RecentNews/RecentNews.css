@@ -1,0 +1,57 @@
+.recentnews {
+    margin: 2rem;
+    max-width: calc(100% - 4rem);
+}
+
+.recentnews-list {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.recentnews .head {
+    text-align: center;
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+}
+
+.recentnews .head h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.recentnews .head h5 {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #989797;
+}
+
+.recentnews-card {
+    width: 400px;
+}
+
+.recentnews-card + .recentnews-card {
+    margin-left: 1rem;
+}
+
+.recentnews-card img {
+    max-width: 100%;
+    white-space: initial;
+}
+
+.recentnews-card .date-author {
+    font-size: 1rem;
+    display: block;
+    margin-bottom: 1rem;
+}
+
+.recentnews-card .title {
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.recentnews-card .text {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
