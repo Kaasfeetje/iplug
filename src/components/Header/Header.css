@@ -1,0 +1,120 @@
+header {
+    color: #fff;
+}
+
+nav {
+    background-color: #000;
+    padding: 1rem 2rem;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+nav .logo {
+    font-weight: 700;
+    color: var(--neonBlue);
+    border: 2px solid var(--neonBlue);
+    padding: 0.5em 0.75em;
+    border-radius: 2rem;
+    margin-right: 1rem;
+}
+
+.nav-item + .nav-item {
+    margin: 0 1rem;
+}
+
+nav .nav-info {
+    margin-left: auto;
+    display: flex;
+}
+
+.nav-info > div {
+    display: flex;
+    align-items: center;
+}
+
+.nav-info div:first-child {
+    padding-right: 1rem;
+    border-right: 1px solid #bababa;
+}
+
+.nav-info svg {
+    margin: 0 0.5rem;
+}
+
+header .search {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: calc(100%-2rem);
+    padding: 0 2rem;
+    padding-bottom: 2rem;
+    padding-top: 1.5rem;
+    border-radius: 0 0 4rem 4rem;
+    background-color: #000;
+}
+
+.search form {
+    background: #989797;
+    padding: 1em 2em;
+    border-radius: 2rem;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.search form input {
+    border: none;
+    background: none;
+    outline: none;
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    flex: 1;
+}
+
+.search form input::placeholder {
+    color: #fff;
+}
+
+.search form button {
+    position: absolute;
+    border: none;
+    outline: none;
+    background: var(--neonBlue);
+    color: #fff;
+    padding: 0.75em;
+    right: 0.75em;
+    border-radius: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+.search form button span {
+    margin-right: 0.5em;
+}
+
+.shop-by-category {
+    display: flex;
+    align-items: center;
+}
+
+.search .personal {
+    display: flex;
+    align-items: center;
+}
+
+.personal > div {
+    display: inherit;
+    align-items: center;
+    padding-right: 1rem;
+    border-right: 1px solid #bababa;
+}
+
+.personal > svg {
+    margin-left: 1rem;
+}

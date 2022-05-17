@@ -1,0 +1,63 @@
+.hero {
+    background-color: #b6aeae40;
+    margin: 3rem 2rem;
+    position: relative;
+    width: calc(100%-4rem);
+    height: 75vh;
+    padding: 0 3rem;
+    border-radius: 1rem;
+}
+
+.hero img {
+    transform: scale(0.75);
+    top: -20%;
+    left: 30%;
+    position: absolute;
+}
+
+.hero h3 {
+    font-size: 80px;
+    font-weight: 600;
+    padding-top: 3rem;
+}
+
+.hero h2 {
+    font-size: 125px;
+    font-weight: 700;
+}
+
+.hero h1 {
+    font-size: 220px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.hero > div {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+.hero > div > div {
+    width: 40%;
+    text-align: right;
+}
+
+.hero > div > div > h5 {
+    font-size: 1em;
+}
+
+.hero > div > div > p {
+    color: #989797;
+}
+
+.hero button {
+    padding: 1em 1.5em;
+    background-color: var(--neonRed);
+    color: #fff;
+    font-size: 1em;
+    font-weight: 700;
+    border: none;
+    outline: none;
+    border-radius: 2rem;
+}

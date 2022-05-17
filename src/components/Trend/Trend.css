@@ -1,0 +1,174 @@
+.trend {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin: 0 auto;
+    column-gap: 1rem;
+    row-gap: 2rem;
+    width: calc(100% - 4rem);
+}
+
+.trendcard {
+    position: relative;
+    height: 350px;
+    padding: 1rem;
+    border-radius: 1rem;
+    color: #fff;
+}
+
+.trendcard h4 {
+    font-size: 1.5rem;
+}
+
+.trendcard h3 {
+    font-size: 2.5rem;
+}
+
+.trendcard h2 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    opacity: 0.5;
+}
+
+.trendcard button {
+    padding: 1em 2em;
+    border-radius: 2em;
+    border: none;
+    margin-top: 2rem;
+}
+
+.trendcard img {
+    position: absolute;
+}
+
+.trend-earphone h4,
+.trend-iwatch h4,
+.trend-laptop h4 {
+    margin-top: 4rem;
+}
+
+.trend-earphone,
+.trend-iwatch,
+.trend-oculus,
+.trend-speaker {
+    grid-column: span 1;
+}
+
+.trend-laptop,
+.trend-console {
+    grid-column: span 2;
+}
+
+.trend-earphone {
+    background-color: #000;
+    color: #fff;
+}
+
+.trend-earphone img {
+    bottom: 0;
+    right: 0;
+    transform-origin: bottom;
+    transform: scale(0.8);
+}
+
+.trend-earphone button {
+    background-color: #ff2222e5;
+    color: #fff;
+}
+
+.trend-iwatch {
+    background-color: #edd10b;
+    color: #fff;
+}
+
+.trend-iwatch img {
+    top: 0;
+    right: 0;
+    transform-origin: top right;
+    transform: scale(0.75);
+}
+
+.trend-iwatch button {
+    background-color: #fff;
+    color: #edd10b;
+}
+
+.trend-laptop {
+    background-color: #ff2222e5;
+    color: #fff;
+}
+.trend-laptop img {
+    bottom: 0;
+    right: 0;
+    transform-origin: bottom right;
+    transform: scale(0.75);
+}
+
+.trend-laptop button {
+    color: #ff2222e5;
+}
+
+.trend-console {
+    background-color: #b6aeae40;
+    color: #000;
+}
+
+.trend-console img {
+    bottom: 0;
+    left: 50%;
+    transform-origin: bottom;
+    transform: scale(0.8);
+}
+
+.trend-console h4,
+.trend-console h3,
+.trend-console h2,
+.trend-console button {
+    margin-left: 6rem;
+}
+
+.trend-console h4 {
+    margin-top: 3rem;
+}
+
+.trend-console h2 {
+    color: #fff;
+    opacity: 1;
+}
+
+.trend-console button {
+    background-color: #ff2222e5;
+    color: #fff;
+}
+
+.trend-oculus {
+    background-color: #3fb13de5;
+}
+
+.trend-oculus img {
+    bottom: 0;
+    right: 0;
+    transform-origin: bottom right;
+    transform: scale(0.8);
+    border-radius: inherit;
+}
+
+.trend-oculus button {
+    background-color: #fff;
+    color: #3fb13de5;
+}
+
+.trend-speaker {
+    background-color: #136ef580;
+}
+
+.trend-speaker img {
+    bottom: 0;
+    right: 0;
+    transform-origin: bottom right;
+    transform: scale(0.8);
+}
+
+.trend-speaker button {
+    color: #1639b6;
+}
